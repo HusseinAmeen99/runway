@@ -44,8 +44,7 @@ Future.delayed(Duration(seconds: 4),(){
               width: 188,
               height: 50,
             ),
-            const Gap(20),
-
+            const Gap(5),
             SizedBox(
               width: 188,
               child: AnimatedBuilder(

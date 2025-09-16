@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:runway_fashion/categories.dart';
+import 'package:runway_fashion/product_detalis.dart';
 import 'package:runway_fashion/splash_screen.dart';
 
 void main() {
@@ -15,9 +17,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+        scaffoldBackgroundColor: Colors.white,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SplashScreen(),
+      home: ProductDetalis(),
     );
   }
 }
