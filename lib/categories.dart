@@ -21,7 +21,7 @@ class Categories extends StatelessWidget {
       ProductModel('assets/images/products/Cloth 4 (1).png', '\$40', 'Deep gray essential regul..'),
     ];
     return Scaffold(
-      appBar: CustomAppbar(title: 'Men', suffix: 'assets/svgs/bi_bag.png', Prefix: 'assets/svgs/arrow-left.svg'),
+      appBar: CustomAppbar(onTap: () => Navigator.pop(context),title: 'Men', suffix: 'assets/svgs/bi_bag.png', Prefix: 'assets/svgs/arrow-left.svg'),
       body: Column(
         children: [
           CategoryFilter(),
@@ -62,7 +62,7 @@ class Categories extends StatelessWidget {
                     price: item.price,
                     name: item.name,
                     ontap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => ProductDetalis(item: item,),));
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => ProductDetalis(image: item.image,name: item.name,price: item.price,),));
                     },);
                 } ,
               ),

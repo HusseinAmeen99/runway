@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:runway_fashion/categories.dart';
 import 'package:runway_fashion/model.dart';
 import 'package:runway_fashion/model/category_model.dart';
+import 'package:runway_fashion/product_detalis.dart';
 import 'package:runway_fashion/widgets/custom_appbar.dart';
 import 'package:video_player/video_player.dart';
 class Home extends StatefulWidget {
@@ -86,7 +88,7 @@ class _HomeState extends State<Home> {
                                       padding: const EdgeInsets.only(left: 15.0),
                                       child: GestureDetector(
                                         onTap:(){
-                                          Navigator.push(context, MaterialPageRoute(builder: (context) => Model(),));
+                                          Navigator.push(context, MaterialPageRoute(builder: (context) => Categories(),));
                                         },
                                         child: Column(
                                           children: [

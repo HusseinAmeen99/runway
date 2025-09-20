@@ -20,7 +20,11 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ProductDetalis(),
+      home: SplashScreen(
+
+
+
+      ),
     );
   }
 }
