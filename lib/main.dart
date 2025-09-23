@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:runway_fashion/categories.dart';
-import 'package:runway_fashion/product_detalis.dart';
-import 'package:runway_fashion/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());

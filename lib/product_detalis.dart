@@ -3,7 +3,6 @@ import 'dart:ffi';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:runway_fashion/model/product_model.dart';
 import 'package:runway_fashion/widgets/category_filter.dart';
 import 'package:runway_fashion/widgets/custom_appbar.dart';
 
