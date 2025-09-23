@@ -24,7 +24,7 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           GestureDetector(onTap: onTap,child: SvgPicture.asset(Prefix,width: 10,height: 25,)),
-          Text(title,style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold),),
+          Text(title,style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
           Image.asset(suffix,width:25 ,height: 25,),
         ],
       ),

@@ -78,6 +78,191 @@ class _ProductDetalisState extends State<ProductDetalis> {
                             ],
                           ),
                         ],
+                      ),
+                      Gap(20),
+                      Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey.shade300),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(10.0),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Row(
+                                children: [
+                                  Text('Select colour',style: TextStyle(fontWeight: FontWeight.bold,fontSize:16 ),),
+                                  Gap(10),
+                                  SvgPicture.asset('assets/svgs/uil_sort.svg'),
+                                ],
+                              ),
+                              Text('|',style: TextStyle(fontSize:25,color: Colors.grey.shade300),),
+                              Row(
+                                children: [
+                                  Text('Select Size',style: TextStyle(fontWeight: FontWeight.bold,fontSize:16 ),),
+                                  Gap(10),
+                                  SvgPicture.asset('assets/svgs/uil_sort.svg'),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                      Gap(5),
+                      Container(
+                        height: 55,
+                        width: 390,
+                        decoration: BoxDecoration(
+                          color: Colors.black,
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        child: Center(child: Text('ADD TO BAG',style: TextStyle(fontSize:16,fontWeight: FontWeight.bold,color: Colors.white ),)),
+                      ),
+                      Gap(10),
+                      Column(crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Container(
+                            width: 390,
+                            height: 55,
+                            decoration: BoxDecoration(
+                              border: Border.all(color: Colors.grey.shade300),
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Row(
+                              children: [
+                                SvgPicture.asset('assets/svgs/solar_delivery-linear.svg'),
+                                Gap(5),
+                                Text('Free delivery',style: TextStyle(fontWeight: FontWeight.bold,fontSize:16 ),),
+                              ],
+                              ),
+                            )
+                            ),
+                          Gap(5),
+                          Container(
+                              width: 390,
+                              height: 55,
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.grey.shade300),
+                              ),
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Row(
+                                      children: [
+                                        SvgPicture.asset('assets/svgs/freeReturn.svg'),
+                                        Gap(7),
+                                        Text('Free return',style: TextStyle(fontWeight: FontWeight.bold,fontSize:16 ),),
+                                      ],
+                                    ),
+                                    Text('View return policy',)
+                                  ],
+                                ),
+
+                              )
+                          ),
+                          Gap(10),
+                          Text('About product',style: TextStyle(fontWeight: FontWeight.bold),),
+                          Gap(10),
+                          Container(
+                              width: 390,
+                              height: 55,
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.grey.shade300),
+                              ),
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Row(
+                                      children: [
+                                        SvgPicture.asset('assets/svgs/productlist.svg'),
+                                        Gap(7),
+                                        Text('Product details',style: TextStyle(fontWeight: FontWeight.bold,fontSize:16 ),),
+                                      ],
+                                    ),
+                                    SvgPicture.asset('assets/svgs/arch-down.svg') ,                                 ],
+                                ),
+
+                              )
+                          ),
+                          Container(
+                              width: 390,
+                              height: 55,
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.grey.shade300),
+                              ),
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Row(
+                                      children: [
+                                        SvgPicture.asset('assets/svgs/brand.svg'),
+                                        Gap(7),
+                                        Text('Brand',style: TextStyle(fontWeight: FontWeight.bold,fontSize:16 ),),
+                                      ],
+                                    ),
+                                    SvgPicture.asset('assets/svgs/arch-down.svg')
+                                  ],
+                                ),
+
+                              )
+                          ),
+                          Container(
+                              width: 390,
+                              height: 55,
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.grey.shade300),
+                              ),
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Row(
+                                      children: [
+                                        SvgPicture.asset('assets/svgs/size.svg'),
+                                        Gap(7),
+                                        Text('Size and fit',style: TextStyle(fontWeight: FontWeight.bold,fontSize:16 ),),
+                                      ],
+                                    ),
+                                    SvgPicture.asset('assets/svgs/arch-down.svg'),
+                                  ],
+                                ),
+
+                              )
+                          ),
+                          Container(
+                              width: 390,
+                              height: 55,
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.grey.shade300),
+                              ),
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Row(
+                                      children: [
+                                        SvgPicture.asset('assets/svgs/history.svg'),
+                                        Gap(7),
+                                        Text('History',style: TextStyle(fontWeight: FontWeight.bold,fontSize:16 ),),
+                                      ],
+                                    ),
+                                    SvgPicture.asset('assets/svgs/arch-down.svg')
+                                  ],
+                                ),
+
+                              )
+                          ),
+
+                        ],
                       )
                     ],
                   ),
